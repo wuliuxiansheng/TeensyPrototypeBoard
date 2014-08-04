@@ -11463,7 +11463,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U$2" library="Teensy_3_Series_Chip_v1.0" deviceset="MINI54TAN" device="DEFAULT"/>
+<part name="MINI54_MICRO" library="Teensy_3_Series_Chip_v1.0" deviceset="MINI54TAN" device="DEFAULT"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="33"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="470"/>
 <part name="C1" library="resistor" deviceset="C-US" device="C0603" value="0.1uf"/>
@@ -11495,7 +11495,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="470"/>
 <part name="AGND9" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="adafruit" deviceset="MICROSD" device=""/>
+<part name="MICRO_SD_CARD_SINK" library="adafruit" deviceset="MICROSD" device=""/>
 <part name="AGND10" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-RF" deviceset="BLE112-A" device=""/>
 <part name="AGND11" library="supply1" deviceset="GND" device=""/>
@@ -11516,7 +11516,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <part name="AGND17" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="resistor" deviceset="C-US" device="C0603" value="0.1uf"/>
 <part name="AGND27" library="supply1" deviceset="GND" device=""/>
-<part name="PROG" library="pel_misc" deviceset="CONN_5-2" device="-FTSH-V"/>
+<part name="PROGRAM_HEADER" library="pel_misc" deviceset="CONN_5-2" device="-FTSH-V"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
@@ -11528,7 +11528,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="U4" library="Testing" deviceset="MPU-6050" device="-1"/>
+<part name="IMU" library="Testing" deviceset="MPU-6050" device="-1"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
@@ -11556,7 +11556,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <text x="27.94" y="71.12" size="3.81" layer="91">CC HEADER</text>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="325.12" y="73.66" rot="R180"/>
+<instance part="MINI54_MICRO" gate="G$1" x="325.12" y="73.66" rot="R180"/>
 <instance part="R1" gate="G$1" x="269.24" y="53.34" rot="R180"/>
 <instance part="R2" gate="G$1" x="294.64" y="116.84"/>
 <instance part="C1" gate="G$1" x="281.94" y="152.4" rot="R270"/>
@@ -11591,7 +11591,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <instance part="LED1" gate="G$1" x="185.42" y="116.84" rot="R270"/>
 <instance part="R3" gate="G$1" x="175.26" y="116.84"/>
 <instance part="AGND9" gate="1" x="165.1" y="116.84" rot="R270"/>
-<instance part="U$3" gate="G$1" x="132.08" y="134.62" rot="R180"/>
+<instance part="MICRO_SD_CARD_SINK" gate="G$1" x="132.08" y="134.62" rot="R180"/>
 <instance part="AGND10" gate="1" x="165.1" y="147.32" rot="R90"/>
 <instance part="U3" gate="G$1" x="55.88" y="129.54"/>
 <instance part="AGND11" gate="1" x="109.22" y="91.44"/>
@@ -11612,7 +11612,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <instance part="AGND17" gate="1" x="83.82" y="160.02" rot="R90"/>
 <instance part="C16" gate="G$1" x="302.26" y="76.2" rot="R90"/>
 <instance part="AGND27" gate="1" x="299.72" y="78.74" rot="R180"/>
-<instance part="PROG" gate="G$1" x="48.26" y="48.26"/>
+<instance part="PROGRAM_HEADER" gate="G$1" x="48.26" y="48.26"/>
 <instance part="GND8" gate="1" x="25.4" y="43.18" rot="R270"/>
 <instance part="R6" gate="G$1" x="175.26" y="35.56" rot="R180"/>
 <instance part="OV5642" gate="G$1" x="142.24" y="27.94"/>
@@ -11701,11 +11701,11 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="320.04" y1="149.86" x2="320.04" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="99.06" x2="350.52" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="99.06" x2="350.52" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="VDD"/>
 <wire x1="350.52" y1="58.42" x2="342.9" y2="58.42" width="0.1524" layer="91"/>
 <label x="314.96" y="152.4" size="1.778" layer="95" rot="R180"/>
 <junction x="256.54" y="149.86"/>
-<pinref part="U$2" gate="G$1" pin="AVDD"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="AVDD"/>
 <wire x1="342.9" y1="60.96" x2="342.9" y2="58.42" width="0.1524" layer="91"/>
 <junction x="342.9" y="58.42"/>
 <junction x="342.9" y="60.96"/>
@@ -11764,12 +11764,12 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="330.2" y1="116.84" x2="330.2" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="AVSS"/>
-<pinref part="U$2" gate="G$1" pin="VSS"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="AVSS"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="VSS"/>
 <wire x1="342.9" y1="78.74" x2="342.9" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P2.5"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P2.5"/>
 <wire x1="342.9" y1="81.28" x2="342.9" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P1.4"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P1.4"/>
 <wire x1="342.9" y1="83.82" x2="342.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="86.36" x2="342.9" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="AGND8" gate="1" pin="GND"/>
@@ -11787,7 +11787,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="170.18" y1="116.84" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VSS"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="VSS"/>
 <pinref part="AGND10" gate="1" pin="GND"/>
 <wire x1="149.86" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
 </segment>
@@ -11864,7 +11864,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <pinref part="AGND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="PROG" gate="G$1" pin="1"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="30.48" y="43.18" size="1.778" layer="95"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -11994,7 +11994,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="USBID"/>
 <wire x1="330.2" y1="124.46" x2="355.6" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="124.46" x2="355.6" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P0.0"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P0.0"/>
 <wire x1="355.6" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="53.34" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="58.42" x2="287.02" y2="58.42" width="0.1524" layer="91"/>
@@ -12016,13 +12016,13 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="287.02" y1="81.28" x2="287.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="93.98" x2="347.98" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="93.98" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P3.2"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P3.2"/>
 <wire x1="347.98" y1="73.66" x2="342.9" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P0.1"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P0.1"/>
 <wire x1="307.34" y1="68.58" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="68.58" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="CPU" gate="G$1" pin="PTA2"/>
@@ -12031,9 +12031,9 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P0.6"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P0.6"/>
 <wire x1="307.34" y1="60.96" x2="299.72" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P0.5"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P0.5"/>
 <wire x1="307.34" y1="63.5" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="60.96" x2="299.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="63.5" x2="292.1" y2="63.5" width="0.1524" layer="91"/>
@@ -12045,7 +12045,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="P3.4" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P3.4"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P3.4"/>
 <wire x1="307.34" y1="83.82" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="299.72" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -12057,7 +12057,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="P3.5" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P3.5"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P3.5"/>
 <wire x1="307.34" y1="86.36" x2="299.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="299.72" y="86.36" size="1.778" layer="95"/>
 </segment>
@@ -12071,13 +12071,13 @@ with integrated chip antenna and onboard&lt;br&gt;
 <segment>
 <pinref part="SW1" gate="G$1" pin="S1"/>
 <wire x1="358.14" y1="68.58" x2="358.14" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P5.2"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P5.2"/>
 <wire x1="358.14" y1="66.04" x2="342.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0.7" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P0.7"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="P0.7"/>
 <wire x1="307.34" y1="66.04" x2="294.64" y2="66.04" width="0.1524" layer="91"/>
 <label x="297.18" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -12135,7 +12135,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="SSSD" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="CS"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="CS"/>
 <wire x1="149.86" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="134.62" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="CPU" gate="G$1" pin="D10/TX2/PWM"/>
@@ -12145,7 +12145,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SCLK"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="SCLK"/>
 <wire x1="149.86" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <label x="147.32" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -12196,11 +12196,11 @@ with integrated chip antenna and onboard&lt;br&gt;
 <junction x="96.52" y="86.36"/>
 </segment>
 <segment>
-<pinref part="PROG" gate="G$1" pin="9"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="9"/>
 <wire x1="40.64" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <label x="30.48" y="53.34" size="1.778" layer="95"/>
-<pinref part="PROG" gate="G$1" pin="2"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="60.96" y="43.18" size="1.778" layer="95"/>
 <wire x1="68.58" y1="43.18" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
@@ -12215,7 +12215,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <label x="114.3" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="VDD"/>
 <wire x1="149.86" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
 <label x="154.94" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -12247,7 +12247,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="TXMO" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA_OUT"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="DATA_OUT"/>
 <wire x1="149.86" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="127" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="CPU" gate="G$1" pin="D12/MISO"/>
@@ -12257,7 +12257,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="RXMI" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="DATA_IN"/>
+<pinref part="MICRO_SD_CARD_SINK" gate="G$1" pin="DATA_IN"/>
 <wire x1="149.86" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="CPU" gate="G$1" pin="D11/MOSI"/>
@@ -12285,7 +12285,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <label x="106.68" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PROG" gate="G$1" pin="7"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="7"/>
 <wire x1="40.64" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="30.48" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -12297,7 +12297,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <label x="50.8" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PROG" gate="G$1" pin="3"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="3"/>
 <wire x1="40.64" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="30.48" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -12309,7 +12309,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <label x="50.8" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PROG" gate="G$1" pin="4"/>
+<pinref part="PROGRAM_HEADER" gate="G$1" pin="4"/>
 <wire x1="55.88" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 <label x="60.96" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -12334,7 +12334,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="LDOCAP"/>
+<pinref part="MINI54_MICRO" gate="G$1" pin="LDOCAP"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -12628,7 +12628,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <instance part="GND11" gate="1" x="0" y="25.4"/>
 <instance part="R8" gate="G$1" x="38.1" y="17.78" rot="R90"/>
 <instance part="R10" gate="G$1" x="45.72" y="17.78" rot="R90"/>
-<instance part="U4" gate="G$1" x="0" y="0"/>
+<instance part="IMU" gate="G$1" x="0" y="0"/>
 <instance part="GND12" gate="1" x="-27.94" y="-20.32"/>
 <instance part="GND13" gate="1" x="-35.56" y="-20.32"/>
 <instance part="GND14" gate="1" x="-43.18" y="-20.32"/>
@@ -12666,7 +12666,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-20.32" y1="-17.78" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="IMU" gate="G$1" pin="GND"/>
 <wire x1="-20.32" y1="-7.62" x2="-17.78" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12685,9 +12685,9 @@ with integrated chip antenna and onboard&lt;br&gt;
 <pinref part="SJ3" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="AUX_CL"/>
+<pinref part="IMU" gate="G$1" pin="AUX_CL"/>
 <wire x1="17.78" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="AUX_DA"/>
+<pinref part="IMU" gate="G$1" pin="AUX_DA"/>
 <wire x1="17.78" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="5.08" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
@@ -12698,7 +12698,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <net name="N$3" class="0">
 <segment>
 <wire x1="-17.78" y1="-5.08" x2="-27.94" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="CPOUT"/>
+<pinref part="IMU" gate="G$1" pin="CPOUT"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-7.62" x2="-27.94" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
@@ -12706,7 +12706,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <net name="N$23" class="0">
 <segment>
 <wire x1="-17.78" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="REGOUT"/>
+<pinref part="IMU" gate="G$1" pin="REGOUT"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="-2.54" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
@@ -12714,7 +12714,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <net name="ADO" class="0">
 <segment>
 <label x="20.32" y="-2.54" size="1.778" layer="95"/>
-<pinref part="U4" gate="G$1" pin="AD0"/>
+<pinref part="IMU" gate="G$1" pin="AD0"/>
 <wire x1="17.78" y1="-2.54" x2="48.26" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 </segment>
@@ -12722,14 +12722,14 @@ with integrated chip antenna and onboard&lt;br&gt;
 <net name="IMU_INT" class="0">
 <segment>
 <wire x1="-17.78" y1="5.08" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="INT"/>
+<pinref part="IMU" gate="G$1" pin="INT"/>
 <label x="-25.4" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FSYNC" class="0">
 <segment>
 <label x="-25.4" y="2.54" size="1.778" layer="95"/>
-<pinref part="U4" gate="G$1" pin="FSYNC"/>
+<pinref part="IMU" gate="G$1" pin="FSYNC"/>
 <wire x1="-50.8" y1="-5.08" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="2.54" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="2"/>
@@ -12737,7 +12737,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 </net>
 <net name="CLKIN" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CLKIN"/>
+<pinref part="IMU" gate="G$1" pin="CLKIN"/>
 <wire x1="-17.78" y1="0" x2="-43.18" y2="0" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-5.08" x2="-43.18" y2="0" width="0.1524" layer="91"/>
 <label x="-25.4" y="0" size="1.778" layer="95"/>
@@ -12750,7 +12750,7 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="38.1" y1="2.54" x2="17.78" y2="2.54" width="0.1524" layer="91"/>
 <label x="20.32" y="2.54" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="U4" gate="G$1" pin="SCL"/>
+<pinref part="IMU" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="IMU_SDA" class="0">
@@ -12759,19 +12759,19 @@ with integrated chip antenna and onboard&lt;br&gt;
 <wire x1="45.72" y1="0" x2="17.78" y2="0" width="0.1524" layer="91"/>
 <label x="20.32" y="0" size="1.778" layer="95"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="U4" gate="G$1" pin="SDA"/>
+<pinref part="IMU" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="3.3VBLE" class="0">
 <segment>
 <wire x1="-17.78" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="7.62" x2="-25.4" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VDD"/>
+<pinref part="IMU" gate="G$1" pin="VDD"/>
 <label x="-25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="-5.08" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VLOGIC"/>
+<pinref part="IMU" gate="G$1" pin="VLOGIC"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-7.62" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
 <label x="20.32" y="-5.08" size="1.778" layer="95"/>

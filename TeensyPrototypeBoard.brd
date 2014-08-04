@@ -3256,7 +3256,7 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$2" library="Teensy_3_Series_Chip_v1.0" package="QFP50P900X900X160-48N" value="MINI54TANDEFAULT" x="29.27735625" y="10.169825" rot="R180"/>
+<element name="MINI54_MICRO" library="Teensy_3_Series_Chip_v1.0" package="QFP50P900X900X160-48N" value="MINI54TANDEFAULT" x="29.27735625" y="10.169825" rot="R180"/>
 <element name="R1" library="resistor" package="R0603" value="33" x="21.571959375" y="33.109409375"/>
 <element name="R2" library="resistor" package="R0603" value="470" x="19.83799375" y="25.581246875" rot="R90"/>
 <element name="C1" library="resistor" package="C0603" value="0.1uf" x="19.39571875" y="28.5703" rot="R270"/>
@@ -3278,7 +3278,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="SW1" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="28.591575" y="3.454021875" rot="R180"/>
 <element name="LED1" library="adafruit" package="CHIP-LED0603" value="" x="44.79413125" y="37.2096375" rot="R270"/>
 <element name="R3" library="resistor" package="R0603" value="470" x="48.09406875" y="37.14736875" rot="R180"/>
-<element name="U$3" library="adafruit" package="MICROSD" value="MICROSD" x="37.481775" y="2.862259375" rot="R90"/>
+<element name="MICRO_SD_CARD_SINK" library="adafruit" package="MICROSD" value="MICROSD" x="37.481775" y="2.862259375" rot="R90"/>
 <element name="U3" library="SparkFun-RF" package="BLE112-A" value="BLE112-A" x="4.96159375" y="2.415115625"/>
 <element name="C13" library="resistor" package="C0603" value="0.1uf" x="1.97128125" y="8.824078125" rot="R270"/>
 <element name="LED2" library="adafruit" package="CHIP-LED0603" value="" x="20.55898125" y="12.10096875" rot="R270"/>
@@ -3289,7 +3289,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="LED3" library="adafruit" package="CHIP-LED0603" value="" x="51.106615625" y="38.55839375" rot="R270"/>
 <element name="R9" library="resistor" package="R0603" value="470" x="54.1572375" y="38.55615" rot="R180"/>
 <element name="C16" library="resistor" package="C0603" value="0.1uf" x="29.557796875" y="16.140165625" rot="R180"/>
-<element name="PROG" library="pel_misc" package="FTSH-105-DV" value="CONN_5-2-FTSH-V" x="10.79038125" y="24.879421875"/>
+<element name="PROGRAM_HEADER" library="pel_misc" package="FTSH-105-DV" value="CONN_5-2-FTSH-V" x="10.79038125" y="24.879421875"/>
 <element name="R6" library="resistor" package="R0603" value="4.7K" x="26.763278125" y="48.255465625"/>
 <element name="C14" library="SparkFun" package="0603-CAP" value="0.1uF" x="13.620240625" y="48.6240375" rot="R90"/>
 <element name="C15" library="SparkFun" package="0603-CAP" value="2.2nF" x="10.653359375" y="40.306925" rot="R180"/>
@@ -3297,7 +3297,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C18" library="SparkFun" package="0603-CAP" value="10nF" x="18.001684375" y="46.57499375"/>
 <element name="R8" library="SparkFun" package="0603-RES" value="10k" x="14.09614375" y="40.30443125" rot="R180"/>
 <element name="R10" library="SparkFun" package="0603-RES" value="10k" x="17.400834375" y="41.709228125"/>
-<element name="U4" library="Testing" package="QFN-24-4MM2" value="MPU-6050-1" x="14.17273125" y="44.055534375" rot="R180"/>
+<element name="IMU" library="Testing" package="QFN-24-4MM2" value="MPU-6050-1" x="14.17273125" y="44.055534375" rot="R180"/>
 <element name="SJ1" library="SparkFun" package="SJ_3_PASTE2&amp;3" value="" x="15.675015625" y="48.40870625" rot="R90"/>
 <element name="SJ3" library="SparkFun" package="SJ_2S-TRACE" value="" x="11.598034375" y="48.976025" rot="R270"/>
 <element name="SJ2" library="SparkFun" package="SJ_2S-TRACE" value="" x="18.2130875" y="43.95115625" rot="R270"/>
@@ -3367,8 +3367,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CPU" pad="30"/>
 <contactref element="CPU" pad="48"/>
 <contactref element="L2" pad="2"/>
-<contactref element="U$2" pad="42"/>
-<contactref element="U$2" pad="43"/>
+<contactref element="MINI54_MICRO" pad="42"/>
+<contactref element="MINI54_MICRO" pad="43"/>
 <contactref element="CPU" pad="21"/>
 <wire x1="24.564228125" y1="31.090765625" x2="25.6716125" y2="31.090765625" width="0.1524" layer="1"/>
 <wire x1="25.892084375" y1="29.39019375" x2="25.6152125" y2="29.113321875" width="0.1524" layer="1"/>
@@ -3482,13 +3482,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="Q1" pad="2"/>
 <contactref element="Q1" pad="4"/>
 <contactref element="U1" pad="GND"/>
-<contactref element="U$2" pad="5"/>
-<contactref element="U$2" pad="17"/>
-<contactref element="U$2" pad="25"/>
-<contactref element="U$2" pad="47"/>
+<contactref element="MINI54_MICRO" pad="5"/>
+<contactref element="MINI54_MICRO" pad="17"/>
+<contactref element="MINI54_MICRO" pad="25"/>
+<contactref element="MINI54_MICRO" pad="47"/>
 <contactref element="SW1" pad="3"/>
 <contactref element="R3" pad="1"/>
-<contactref element="U$3" pad="6"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="6"/>
 <contactref element="U3" pad="21"/>
 <contactref element="U3" pad="30"/>
 <contactref element="U3" pad="1"/>
@@ -3505,17 +3505,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C16" pad="1"/>
-<contactref element="PROG" pad="1"/>
+<contactref element="PROGRAM_HEADER" pad="1"/>
 <contactref element="C18" pad="2"/>
 <contactref element="C15" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="C17" pad="2"/>
-<contactref element="U4" pad="18"/>
+<contactref element="IMU" pad="18"/>
 <contactref element="SJ1" pad="3"/>
 <contactref element="SJ2" pad="1"/>
 <contactref element="SJ3" pad="1"/>
-<contactref element="U4" pad="7"/>
-<contactref element="U4" pad="6"/>
+<contactref element="IMU" pad="7"/>
+<contactref element="IMU" pad="6"/>
 <contactref element="OV5642" pad="GND"/>
 <contactref element="OV5642" pad="PWDN"/>
 <polygon width="0.4064" layer="16">
@@ -3704,12 +3704,16 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$1">
 <contactref element="CPU" pad="19"/>
 <contactref element="X1" pad="P$2"/>
-<wire x1="24.237371875" y1="20.335871875" x2="27.536028125" y2="22.632565625" width="0" layer="19" extent="1-1"/>
+<wire x1="24.237371875" y1="20.335871875" x2="25.499890625" y2="21.598390625" width="0.1524" layer="1"/>
+<wire x1="25.499890625" y1="21.598390625" x2="27.27163125" y2="21.598390625" width="0.1524" layer="1"/>
+<wire x1="27.27163125" y1="21.598390625" x2="27.536028125" y2="21.8627875" width="0.1524" layer="1"/>
+<wire x1="27.536028125" y1="21.8627875" x2="27.536028125" y2="22.632565625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="X1" pad="P$1"/>
 <contactref element="CPU" pad="20"/>
-<wire x1="26.637371875" y1="20.335871875" x2="28.018628125" y2="22.632565625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.637371875" y1="20.335871875" x2="28.018628125" y2="21.717128125" width="0.1524" layer="1"/>
+<wire x1="28.018628125" y1="21.717128125" x2="28.018628125" y2="22.632565625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="Q1" pad="1"/>
@@ -3776,7 +3780,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="P0.0">
 <contactref element="U1" pad="ID"/>
-<contactref element="U$2" pad="38"/>
+<contactref element="MINI54_MICRO" pad="38"/>
 <contactref element="CPU" pad="23"/>
 <wire x1="27.01675625" y1="5.953425" x2="27.03315" y2="5.96981875" width="0.1524" layer="1"/>
 <wire x1="27.03315" y1="5.96981875" x2="27.03315" y2="9.2201875" width="0.1524" layer="1"/>
@@ -3829,7 +3833,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$14">
 <contactref element="CPU" pad="34"/>
-<contactref element="U$2" pad="8"/>
+<contactref element="MINI54_MICRO" pad="8"/>
 <wire x1="33.49375625" y1="10.931825" x2="33.497953125" y2="10.927628125" width="0.1524" layer="1"/>
 <wire x1="33.497953125" y1="10.927628125" x2="34.60484375" y2="10.927628125" width="0.1524" layer="1"/>
 <wire x1="34.60484375" y1="10.927628125" x2="36.09856875" y2="12.421353125" width="0.1524" layer="1"/>
@@ -3846,7 +3850,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.1996625" y1="25.096365625" x2="35.994228125" y2="25.096365625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="U$2" pad="37"/>
+<contactref element="MINI54_MICRO" pad="37"/>
 <contactref element="CPU" pad="24"/>
 <wire x1="26.53415625" y1="5.953425" x2="26.55344375" y2="5.9727125" width="0.1524" layer="1"/>
 <wire x1="26.55344375" y1="5.9727125" x2="26.55344375" y2="10.299421875" width="0.1524" layer="1"/>
@@ -3860,8 +3864,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.025228125" y1="18.962065625" x2="30.025228125" y2="22.632565625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="U$2" pad="33"/>
-<contactref element="U$2" pad="34"/>
+<contactref element="MINI54_MICRO" pad="33"/>
+<contactref element="MINI54_MICRO" pad="34"/>
 <contactref element="CPU" pad="25"/>
 <wire x1="25.06095625" y1="8.417225" x2="25.06095625" y2="8.925225" width="0.1524" layer="1"/>
 <wire x1="25.06095625" y1="8.925225" x2="25.063203125" y2="8.922978125" width="0.1524" layer="1"/>
@@ -3886,7 +3890,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.533228125" y1="25.883015625" x2="30.533228125" y2="22.632565625" width="0.1524" layer="1"/>
 </signal>
 <signal name="P3.4">
-<contactref element="U$2" pad="9"/>
+<contactref element="MINI54_MICRO" pad="9"/>
 <contactref element="CPU" pad="38"/>
 <wire x1="33.49375625" y1="11.414425" x2="33.508853125" y2="11.399328125" width="0.1524" layer="1"/>
 <wire x1="33.508853125" y1="11.399328125" x2="34.534534375" y2="11.399328125" width="0.1524" layer="1"/>
@@ -3900,7 +3904,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="37.87501875" y1="27.102965625" x2="35.994228125" y2="27.102965625" width="0.1524" layer="1"/>
 </signal>
 <signal name="P3.5">
-<contactref element="U$2" pad="10"/>
+<contactref element="MINI54_MICRO" pad="10"/>
 <contactref element="CPU" pad="37"/>
 <wire x1="33.49375625" y1="11.922425" x2="33.5104" y2="11.93906875" width="0.1524" layer="1"/>
 <wire x1="33.5104" y1="11.93906875" x2="34.447328125" y2="11.93906875" width="0.1524" layer="1"/>
@@ -3915,7 +3919,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$17">
 <contactref element="SW1" pad="4"/>
-<contactref element="U$2" pad="20"/>
+<contactref element="MINI54_MICRO" pad="20"/>
 <wire x1="30.591575" y1="4.254021875" x2="29.2171625" y2="4.254021875" width="0.1524" layer="1"/>
 <wire x1="29.2171625" y1="4.254021875" x2="28.82021875" y2="3.857078125" width="0.1524" layer="1"/>
 <via x="28.82021875" y="3.857078125" extent="1-16" drill="0.3302"/>
@@ -3928,7 +3932,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="28.511040625" y1="14.381909375" x2="28.51535625" y2="14.386225" width="0.1524" layer="1"/>
 </signal>
 <signal name="P0.7">
-<contactref element="U$2" pad="32"/>
+<contactref element="MINI54_MICRO" pad="32"/>
 <contactref element="CPU" pad="22"/>
 <wire x1="25.06095625" y1="9.407825" x2="25.03401875" y2="9.3808875" width="0.1524" layer="1"/>
 <wire x1="25.03401875" y1="9.3808875" x2="23.77953125" y2="9.3808875" width="0.1524" layer="1"/>
@@ -3999,7 +4003,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CPU" pad="11"/>
 </signal>
 <signal name="SSSD">
-<contactref element="U$3" pad="2"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="2"/>
 <contactref element="CPU" pad="49"/>
 <wire x1="47.721775" y1="10.762259375" x2="47.78068125" y2="10.703353125" width="0.1524" layer="1"/>
 <wire x1="47.78068125" y1="10.703353125" x2="49.241696875" y2="10.703353125" width="0.1524" layer="1"/>
@@ -4034,7 +4038,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="42.687078125" y1="32.81006875" x2="42.7473" y2="32.749846875" width="0.1524" layer="1"/>
 </signal>
 <signal name="SCK">
-<contactref element="U$3" pad="5"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="5"/>
 <contactref element="CPU" pad="50"/>
 <contactref element="LED1" pad="A"/>
 <wire x1="33.530428125" y1="34.062565625" x2="33.527359375" y2="34.065634375" width="0.1524" layer="1"/>
@@ -4071,8 +4075,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="LED3" pad="A"/>
 <contactref element="C13" pad="1"/>
 <contactref element="U3" pad="20"/>
-<contactref element="PROG" pad="9"/>
-<contactref element="PROG" pad="2"/>
+<contactref element="PROGRAM_HEADER" pad="9"/>
+<contactref element="PROGRAM_HEADER" pad="2"/>
 <contactref element="OV5642" pad="VCC"/>
 <polygon width="0.4064" layer="1">
 <vertex x="-3.81" y="55.88"/>
@@ -4080,8 +4084,8 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="62.23" y="-1.27"/>
 <vertex x="-3.81" y="-1.27"/>
 </polygon>
-<contactref element="U4" pad="13"/>
-<contactref element="U4" pad="8"/>
+<contactref element="IMU" pad="13"/>
+<contactref element="IMU" pad="8"/>
 <contactref element="C18" pad="1"/>
 <contactref element="C17" pad="1"/>
 <wire x1="9.966696875" y1="43.8339875" x2="9.96469375" y2="43.831984375" width="0.1524" layer="1"/>
@@ -4090,7 +4094,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="SJ1" pad="1"/>
 <contactref element="3.3V-VOL-REG" pad="2"/>
 <contactref element="C20" pad="1"/>
-<contactref element="U$3" pad="4"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="4"/>
 <contactref element="R4" pad="2"/>
 <contactref element="R6" pad="1"/>
 <wire x1="14.93483125" y1="46.177134375" x2="14.93483125" y2="46.855721875" width="0.1524" layer="1"/>
@@ -4113,7 +4117,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.794834375" y1="12.115115625" x2="19.80898125" y2="12.10096875" width="0.1524" layer="1"/>
 </signal>
 <signal name="TXMO">
-<contactref element="U$3" pad="7"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="7"/>
 <contactref element="CPU" pad="52"/>
 <wire x1="32.539828125" y1="34.062565625" x2="32.56736875" y2="34.09010625" width="0.1524" layer="1"/>
 <wire x1="32.56736875" y1="34.09010625" x2="32.53955" y2="34.117925" width="0.1524" layer="1"/>
@@ -4140,7 +4144,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.104103125" y1="36.760653125" x2="39.103671875" y2="36.760221875" width="0.1524" layer="1"/>
 </signal>
 <signal name="RXMI">
-<contactref element="U$3" pad="3"/>
+<contactref element="MICRO_SD_CARD_SINK" pad="3"/>
 <contactref element="CPU" pad="51"/>
 <wire x1="33.022428125" y1="34.062565625" x2="33.040271875" y2="34.080409375" width="0.1524" layer="1"/>
 <wire x1="33.040271875" y1="34.080409375" x2="33.023771875" y2="34.096909375" width="0.1524" layer="1"/>
@@ -4166,7 +4170,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CPU" pad="57"/>
 <contactref element="U3" pad="29"/>
 <contactref element="SW2" pad="4"/>
-<contactref element="PROG" pad="7"/>
+<contactref element="PROGRAM_HEADER" pad="7"/>
 <wire x1="28.538809375" y1="36.20279375" x2="28.481015625" y2="36.368159375" width="0.1524" layer="1"/>
 <wire x1="16.96159375" y1="13.365115625" x2="14.087765625" y2="13.365115625" width="0.1524" layer="1"/>
 <wire x1="12.061859375" y1="22.84794375" x2="12.06038125" y2="22.849421875" width="0.1524" layer="1"/>
@@ -4226,7 +4230,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="P22">
 <contactref element="U3" pad="4"/>
-<contactref element="PROG" pad="3"/>
+<contactref element="PROGRAM_HEADER" pad="3"/>
 <wire x1="5.01159375" y1="15.865115625" x2="7.044175" y2="15.865115625" width="0.1524" layer="1"/>
 <wire x1="7.044175" y1="15.865115625" x2="7.6372125" y2="16.458153125" width="0.1524" layer="1"/>
 <wire x1="9.519846875" y1="22.8488875" x2="9.52038125" y2="22.849421875" width="0.1524" layer="1"/>
@@ -4241,7 +4245,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="P21">
 <contactref element="U3" pad="5"/>
-<contactref element="PROG" pad="4"/>
+<contactref element="PROGRAM_HEADER" pad="4"/>
 <wire x1="5.01159375" y1="14.615115625" x2="3.439646875" y2="14.615115625" width="0.1524" layer="1"/>
 <wire x1="3.439646875" y1="14.615115625" x2="2.846596875" y2="15.208165625" width="0.1524" layer="1"/>
 <wire x1="2.846596875" y1="15.208165625" x2="2.846596875" y2="17.9514375" width="0.1524" layer="1"/>
@@ -4299,7 +4303,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="38.934378125" y1="42.6084" x2="38.52708125" y2="42.201103125" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$36">
-<contactref element="U$2" pad="18"/>
+<contactref element="MINI54_MICRO" pad="18"/>
 <contactref element="C16" pad="2"/>
 <wire x1="28.707796875" y1="16.140165625" x2="28.810240625" y2="16.140165625" width="0.1524" layer="1"/>
 <wire x1="28.810240625" y1="16.140165625" x2="29.52899375" y2="15.4214125" width="0.1524" layer="1"/>
@@ -4686,7 +4690,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.200125" y1="42.249675" x2="38.9436125" y2="41.9931625" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="U4" pad="20"/>
+<contactref element="IMU" pad="20"/>
 <contactref element="C15" pad="1"/>
 <wire x1="13.39313125" y1="41.973934375" x2="13.39313125" y2="41.502521875" width="0.1524" layer="1"/>
 <wire x1="13.39313125" y1="41.502521875" x2="13.075753125" y2="41.18514375" width="0.1524" layer="1"/>
@@ -4694,13 +4698,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.381578125" y1="41.18514375" x2="11.503359375" y2="40.306925" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="U4" pad="10"/>
+<contactref element="IMU" pad="10"/>
 <contactref element="C14" pad="1"/>
 <wire x1="13.89523125" y1="46.177134375" x2="13.89523125" y2="47.43016875" width="0.1524" layer="1"/>
 <wire x1="13.89523125" y1="47.43016875" x2="13.620240625" y2="47.7740375" width="0.1524" layer="1"/>
 </signal>
 <signal name="ADO">
-<contactref element="U4" pad="9"/>
+<contactref element="IMU" pad="9"/>
 <contactref element="SJ1" pad="2"/>
 <wire x1="14.630546875" y1="47.320846875" x2="14.4353" y2="47.1256" width="0.1524" layer="1"/>
 <wire x1="14.4353" y1="47.1256" x2="14.4353" y2="46.182203125" width="0.1524" layer="1"/>
@@ -4711,7 +4715,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.585125" y1="48.318815625" x2="15.675015625" y2="48.40870625" width="0.1524" layer="1"/>
 </signal>
 <signal name="IMU_INT">
-<contactref element="U4" pad="12"/>
+<contactref element="IMU" pad="12"/>
 <contactref element="CPU" pad="36"/>
 <wire x1="35.994228125" y1="26.086965625" x2="34.606796875" y2="26.086965625" width="0.1524" layer="1"/>
 <wire x1="34.606796875" y1="26.086965625" x2="34.416778125" y2="26.276984375" width="0.1524" layer="1"/>
@@ -4741,7 +4745,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.5601375" y1="46.503028125" x2="12.88603125" y2="46.177134375" width="0.1524" layer="1"/>
 </signal>
 <signal name="FSYNC">
-<contactref element="U4" pad="11"/>
+<contactref element="IMU" pad="11"/>
 <contactref element="SJ3" pad="2"/>
 <wire x1="11.598034375" y1="48.468025" x2="11.598034375" y2="48.205634375" width="0.1524" layer="1"/>
 <wire x1="13.389328125" y1="46.1809375" x2="13.39313125" y2="46.177134375" width="0.1524" layer="1"/>
@@ -4753,14 +4757,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.285628125" y1="46.9597125" x2="12.277828125" y2="46.9597125" width="0.1524" layer="1"/>
 </signal>
 <signal name="CLKIN">
-<contactref element="U4" pad="1"/>
+<contactref element="IMU" pad="1"/>
 <contactref element="SJ2" pad="2"/>
 <wire x1="16.23893125" y1="42.798834375" x2="17.568765625" y2="42.798834375" width="0.1524" layer="1"/>
 <wire x1="17.568765625" y1="42.798834375" x2="18.2130875" y2="43.44315625" width="0.1524" layer="1"/>
 </signal>
 <signal name="IMU_SCL">
 <contactref element="R8" pad="1"/>
-<contactref element="U4" pad="23"/>
+<contactref element="IMU" pad="23"/>
 <contactref element="CPU" pad="55"/>
 <wire x1="14.93483125" y1="41.973934375" x2="14.93483125" y2="40.31574375" width="0.1524" layer="1"/>
 <wire x1="14.93483125" y1="40.31574375" x2="14.94614375" y2="40.30443125" width="0.1524" layer="1"/>
@@ -4777,7 +4781,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="IMU_SDA">
 <contactref element="R10" pad="1"/>
-<contactref element="U4" pad="24"/>
+<contactref element="IMU" pad="24"/>
 <contactref element="CPU" pad="56"/>
 <wire x1="15.43943125" y1="41.973934375" x2="16.286128125" y2="41.973934375" width="0.1524" layer="1"/>
 <wire x1="16.286128125" y1="41.973934375" x2="16.550834375" y2="41.709228125" width="0.1524" layer="1"/>
@@ -4793,7 +4797,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.907575" y1="40.741378125" x2="17.111984375" y2="40.741378125" width="0.1524" layer="1"/>
 <wire x1="17.111984375" y1="40.741378125" x2="16.550834375" y2="41.302528125" width="0.1524" layer="1"/>
 <wire x1="16.550834375" y1="41.302528125" x2="16.550834375" y2="41.709228125" width="0.1524" layer="1"/>
-<wire x1="29.641209375" y1="35.672346875" x2="29.641209375" y2="35.91159375" width="0" layer="19" extent="1-16"/>
 <wire x1="29.641209375" y1="35.91159375" x2="29.641209375" y2="36.062909375" width="0.1524" layer="16"/>
 <wire x1="29.641209375" y1="36.062909375" x2="29.181521875" y2="36.522596875" width="0.1524" layer="16"/>
 <wire x1="29.181521875" y1="36.522596875" x2="28.88574375" y2="36.522596875" width="0.1524" layer="16"/>
