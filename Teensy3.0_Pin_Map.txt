@@ -1,0 +1,38 @@
+X Y Z
+---------------
+3 A 12
+4 A 13
+24 A 5
+33 A 4
+0 B 16
+1 B 17
+16 B 0
+17 B 1
+18 B 3
+19 B 2
+25 B 19
+32 B 18
+9 C 3
+10 C 4
+11 C 6
+12 C 7
+13 C 5
+15 C 0
+22 C 1
+23 C 2
+27 C 9
+28 C 8
+29 C 10
+30 C 11
+2 D 0
+5 D 7
+6 D 4
+7 D 2
+8 D 3
+14 D 1
+20 D 5
+21 D 6
+26 E 1
+31 E 0
+
+(Three fields are teensy pin #, port letter, port bit number, eg: teensy pin 14 is port D bit 1)
