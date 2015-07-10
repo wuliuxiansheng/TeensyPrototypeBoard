@@ -3256,56 +3256,188 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="MINI54_MICRO" library="Teensy_3_Series_Chip_v1.0" package="QFP50P900X900X160-48N" value="MINI54TANDEFAULT" x="29.27735625" y="10.169825" rot="R180"/>
-<element name="R1" library="resistor" package="R0603" value="33" x="21.571959375" y="33.109409375"/>
-<element name="R2" library="resistor" package="R0603" value="470" x="19.83799375" y="25.581246875" rot="R90"/>
-<element name="C1" library="resistor" package="C0603" value="0.1uf" x="19.39571875" y="28.5703" rot="R270"/>
-<element name="L2" library="SparkFun-Passives" package="0603" value="600ohm@100mhz" x="18.32495" y="25.606978125" rot="R90"/>
-<element name="U1" library="SparkFun-Connectors" package="USB-AB-MICRO-SMD" value="" x="2.827296875" y="33.61365625"/>
-<element name="CPU" library="Teensy_3_Series_Chip_v1.0" package="QFP50P1200X1200X160-64N" value="MK20DX256VLH7" x="30.279228125" y="28.347565625"/>
-<element name="Q1" library="adafruit" package="NX3225" value="16mhz" x="36.44755625" y="21.048059375" rot="R180"/>
-<element name="X1" library="adafruit" package="XTAL3215" value="32.768khz" x="25.437371875" y="20.335871875"/>
-<element name="C2" library="resistor" package="C0603" value="2.2uf" x="6.702909375" y="36.39488125" rot="R180"/>
-<element name="C5" library="resistor" package="C0603" value="0.1uf" x="39.039940625" y="30.85865625" rot="R270"/>
-<element name="C6" library="resistor" package="C0603" value="0.1uf" x="41.022928125" y="30.86075625" rot="R270"/>
-<element name="C7" library="resistor" package="C0603" value="0.1uf" x="42.9870125" y="30.86043125" rot="R270"/>
-<element name="C8" library="resistor" package="C0603" value="2.2uf" x="44.962528125" y="30.860075" rot="R270"/>
-<element name="C9" library="resistor" package="C0603" value="2.2uf" x="20.0372" y="22.1684625" rot="R270"/>
-<element name="L5" library="SparkFun-Passives" package="0603" value="600ohm@100mhz" x="22.07535625" y="25.0635875" rot="R180"/>
-<element name="C10" library="resistor" package="C0603" value="0.1uf" x="24.22425" y="22.59528125"/>
-<element name="C11" library="resistor" package="C0603" value="0.1uf" x="21.5224" y="22.199909375" rot="R90"/>
-<element name="R5" library="resistor" package="R0603" value="33" x="21.523178125" y="30.971171875"/>
-<element name="SW1" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="28.591575" y="3.454021875" rot="R180"/>
-<element name="LED1" library="adafruit" package="CHIP-LED0603" value="" x="44.79413125" y="37.2096375" rot="R270"/>
-<element name="R3" library="resistor" package="R0603" value="470" x="48.09406875" y="37.14736875" rot="R180"/>
-<element name="MICRO_SD_CARD_SINK" library="adafruit" package="MICROSD" value="MICROSD" x="37.481775" y="2.862259375" rot="R90"/>
-<element name="U3" library="SparkFun-RF" package="BLE112-A" value="BLE112-A" x="4.96159375" y="2.415115625"/>
-<element name="C13" library="resistor" package="C0603" value="0.1uf" x="1.97128125" y="8.824078125" rot="R270"/>
-<element name="LED2" library="adafruit" package="CHIP-LED0603" value="" x="20.55898125" y="12.10096875" rot="R270"/>
-<element name="R7" library="resistor" package="R0603" value="470" x="20.5621625" y="10.025078125"/>
-<element name="SW2" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="30.481015625" y="37.168159375"/>
-<element name="JP2" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="1.390365625" y="41.70503125" rot="R90"/>
-<element name="U$4" library="zz_cbhar" package="PMEG4010CPA" value="PMEG4010CPA" x="22.1323" y="28.489103125" rot="R270"/>
-<element name="LED3" library="adafruit" package="CHIP-LED0603" value="" x="51.106615625" y="38.55839375" rot="R270"/>
-<element name="R9" library="resistor" package="R0603" value="470" x="54.1572375" y="38.55615" rot="R180"/>
-<element name="C16" library="resistor" package="C0603" value="0.1uf" x="29.557796875" y="16.140165625" rot="R180"/>
-<element name="PROGRAM_HEADER" library="pel_misc" package="FTSH-105-DV" value="CONN_5-2-FTSH-V" x="10.79038125" y="24.879421875"/>
-<element name="R6" library="resistor" package="R0603" value="4.7K" x="26.763278125" y="48.255465625"/>
-<element name="C14" library="SparkFun" package="0603-CAP" value="0.1uF" x="13.620240625" y="48.6240375" rot="R90"/>
-<element name="C15" library="SparkFun" package="0603-CAP" value="2.2nF" x="10.653359375" y="40.306925" rot="R180"/>
-<element name="C17" library="SparkFun" package="0603-CAP" value="0.1uF" x="9.96469375" y="42.981984375" rot="R270"/>
-<element name="C18" library="SparkFun" package="0603-CAP" value="10nF" x="18.001684375" y="46.57499375"/>
-<element name="R8" library="SparkFun" package="0603-RES" value="10k" x="14.09614375" y="40.30443125" rot="R180"/>
-<element name="R10" library="SparkFun" package="0603-RES" value="10k" x="17.400834375" y="41.709228125"/>
-<element name="IMU" library="Testing" package="QFN-24-4MM2" value="MPU-6050-1" x="14.17273125" y="44.055534375" rot="R180"/>
-<element name="SJ1" library="SparkFun" package="SJ_3_PASTE2&amp;3" value="" x="15.675015625" y="48.40870625" rot="R90"/>
-<element name="SJ3" library="SparkFun" package="SJ_2S-TRACE" value="" x="11.598034375" y="48.976025" rot="R270"/>
-<element name="SJ2" library="SparkFun" package="SJ_2S-TRACE" value="" x="18.2130875" y="43.95115625" rot="R270"/>
-<element name="OV5642" library="Chao" package="OV5642_MODULE" value="OV5642_MODULE" x="41.2354625" y="46.997834375"/>
-<element name="R4" library="resistor" package="R0603" value="4.7K" x="31.48938125" y="43.439865625" rot="R180"/>
-<element name="3.3V-VOL-REG" library="Chao" package="SOT-89" value="AP1117_VOL-REG" x="14.79075625" y="36.606496875" rot="R270"/>
-<element name="C19" library="SparkFun" package="0603-CAP" value="10uF" x="10.784878125" y="33.242834375" rot="R180"/>
-<element name="C20" library="SparkFun" package="0603-CAP" value="22uF" x="10.540465625" y="36.866296875" rot="R90"/>
+<element name="MINI54_MICRO" library="Teensy_3_Series_Chip_v1.0" package="QFP50P900X900X160-48N" value="MINI54TANDEFAULT" x="29.27735625" y="10.169825" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.351778125" y="5.845759375" size="0.508" layer="25" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="19.6837" y="5.179778125" size="0.508" layer="27" ratio="10" rot="SR0"/>
+</element>
+<element name="R1" library="resistor" package="R0603" value="33" x="21.571959375" y="33.109409375" smashed="yes">
+<attribute name="NAME" x="20.1886875" y="33.810128125" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="21.765653125" y="33.87808125" size="0.8128" layer="27"/>
+</element>
+<element name="R2" library="resistor" package="R0603" value="470" x="19.83799375" y="25.581246875" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.378371875" y="24.177440625" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="22.36728125" y="27.28903125" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C1" library="resistor" package="C0603" value="0.1uf" x="19.39571875" y="28.5703" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.9217125" y="29.03566875" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="19.8821625" y="29.482834375" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="L2" library="SparkFun-Passives" package="0603" value="600ohm@100mhz" x="18.32495" y="25.606978125" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.8956625" y="24.166678125" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="17.42771875" y="25.830378125" size="0.254" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="USB" library="SparkFun-Connectors" package="USB-AB-MICRO-SMD" value="" x="2.827296875" y="33.61365625" smashed="yes">
+<attribute name="NAME" x="6.410225" y="29.151746875" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="1.557296875" y="39.07465625" size="0.4064" layer="27"/>
+</element>
+<element name="CPU" library="Teensy_3_Series_Chip_v1.0" package="QFP50P1200X1200X160-64N" value="MK20DX256VLH7" x="30.279228125" y="28.347565625" smashed="yes">
+<attribute name="NAME" x="23.97004375" y="33.711365625" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0"/>
+<attribute name="VALUE" x="35.7286125" y="23.260046875" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0"/>
+</element>
+<element name="Q1" library="adafruit" package="NX3225" value="16mhz" x="36.44755625" y="21.048059375" smashed="yes" rot="R180"/>
+<element name="X1" library="adafruit" package="XTAL3215" value="32.768khz" x="25.437371875" y="20.335871875" smashed="yes">
+<attribute name="NAME" x="23.692953125" y="18.511684375" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="27.277215625" y="20.3509" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C2" library="resistor" package="C0603" value="2.2uf" x="6.702909375" y="36.39488125" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.679534375" y="37.80800625" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="8.6252625" y="35.81058125" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C5" library="resistor" package="C0603" value="0.1uf" x="39.039940625" y="30.85865625" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.331309375" y="29.316203125" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="38.282565625" y="29.316203125" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C6" library="resistor" package="C0603" value="0.1uf" x="41.022928125" y="30.86075625" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.235859375" y="29.357521875" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="40.304771875" y="29.337909375" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C7" library="resistor" package="C0603" value="0.1uf" x="42.9870125" y="30.86043125" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.29799375" y="29.3375875" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="42.3276875" y="29.317978125" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C8" library="resistor" package="C0603" value="2.2uf" x="44.962528125" y="30.860075" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.15585" y="29.33723125" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="44.18554375" y="29.33723125" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="C9" library="resistor" package="C0603" value="2.2uf" x="20.0372" y="22.1684625" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.312965625" y="20.65225625" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="18.658796875" y="23.397871875" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="L5" library="SparkFun-Passives" package="0603" value="600ohm@100mhz" x="22.07535625" y="25.0635875" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.434896875" y="24.497671875" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="20.6438375" y="25.5962125" size="0.254" layer="27" font="vector"/>
+</element>
+<element name="C10" library="resistor" package="C0603" value="0.1uf" x="24.22425" y="22.59528125" smashed="yes">
+<attribute name="NAME" x="23.0018875" y="23.180803125" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="22.94305625" y="21.210359375" size="0.8128" layer="27"/>
+</element>
+<element name="C11" library="resistor" package="C0603" value="0.1uf" x="21.5224" y="22.199909375" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.585209375" y="18.891159375" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="22.49548125" y="18.17355" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="R5" library="resistor" package="R0603" value="33" x="21.523178125" y="30.971171875" smashed="yes">
+<attribute name="NAME" x="20.23405" y="31.57775" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="21.858096875" y="31.598634375" size="0.8128" layer="27"/>
+</element>
+<element name="SW1" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="28.591575" y="3.454021875" smashed="yes" rot="R180"/>
+<element name="LED1" library="adafruit" package="CHIP-LED0603" value="" x="44.79413125" y="37.2096375" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.48916875" y="37.79561875" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="44.15913125" y="35.3046375" size="1.27" layer="27"/>
+</element>
+<element name="R3" library="resistor" package="R0603" value="470" x="48.09406875" y="37.14736875" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.166040625" y="38.660303125" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="48.607234375" y="36.417959375" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="MICRO_SD_CARD_SINK" library="adafruit" package="MICROSD" value="MICROSD" x="37.481775" y="2.862259375" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.7418375" y="2.73690625" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="U3" library="SparkFun-RF" package="BLE112-A" value="BLE112-A" x="4.96159375" y="2.415115625" smashed="yes"/>
+<element name="C13" library="resistor" package="C0603" value="0.1uf" x="1.97128125" y="8.824078125" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.5449875" y="9.33651875" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="0.45709375" y="9.8542875" size="0.8128" layer="27" rot="R270"/>
+</element>
+<element name="LED2" library="adafruit" package="CHIP-LED0603" value="" x="20.55898125" y="12.10096875" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.688665625" y="12.716359375" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="19.92398125" y="10.19596875" size="1.27" layer="27"/>
+</element>
+<element name="R7" library="resistor" package="R0603" value="470" x="20.5621625" y="10.025078125" smashed="yes">
+<attribute name="NAME" x="19.98691875" y="10.698384375" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="20.06535625" y="8.444071875" size="0.8128" layer="27"/>
+</element>
+<element name="SW2" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="30.481015625" y="37.168159375" smashed="yes"/>
+<element name="POWER" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="1.390365625" y="41.70503125" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.856115625" y="40.4435875" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="5.289409375" y="40.416790625" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="U$4" library="zz_cbhar" package="PMEG4010CPA" value="PMEG4010CPA" x="22.1323" y="28.489103125" smashed="yes" rot="R270"/>
+<element name="LED3" library="adafruit" package="CHIP-LED0603" value="" x="51.106615625" y="38.55839375" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.667621875" y="39.213003125" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="50.471615625" y="36.65339375" size="1.27" layer="27"/>
+</element>
+<element name="R9" library="resistor" package="R0603" value="470" x="54.1572375" y="38.55615" smashed="yes" rot="R180">
+<attribute name="NAME" x="54.261853125" y="40.02016875" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="54.732484375" y="37.803746875" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C16" library="resistor" package="C0603" value="0.1uf" x="29.557796875" y="16.140165625" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.446796875" y="15.378165625" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.446796875" y="18.172165625" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="PROGRAM_HEADER" library="pel_misc" package="FTSH-105-DV" value="CONN_5-2-FTSH-V" x="10.79038125" y="24.879421875" smashed="yes">
+<attribute name="NAME" x="7.46815" y="20.83465" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="VALUE" x="7.61538125" y="20.434421875" size="0.8128" layer="27" font="vector" ratio="16"/>
+</element>
+<element name="R6" library="resistor" package="R0603" value="4.7K" x="26.763278125" y="48.255465625" smashed="yes">
+<attribute name="NAME" x="25.433471875" y="49.07665625" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="25.230025" y="46.698115625" size="0.8128" layer="27"/>
+</element>
+<element name="C14" library="SparkFun" package="0603-CAP" value="0.1uF" x="13.620240625" y="48.6240375" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.96325625" y="51.06134375" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="17.39221875" y="51.052928125" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C15" library="SparkFun" package="0603-CAP" value="2.2nF" x="10.653359375" y="40.306925" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.090184375" y="40.57051875" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="10.198765625" y="39.638940625" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C17" library="SparkFun" package="0603-CAP" value="0.1uF" x="9.96469375" y="42.981984375" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.5071875" y="44.565421875" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="10.578234375" y="44.719653125" size="0.8128" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="C18" library="SparkFun" package="0603-CAP" value="10nF" x="18.001684375" y="46.57499375" smashed="yes">
+<attribute name="NAME" x="19.580109375" y="47.15725625" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="19.56749375" y="46.199959375" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R8" library="SparkFun" package="0603-RES" value="10k" x="14.09614375" y="40.30443125" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.6961875" y="39.752896875" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="16.162590625" y="39.771640625" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R10" library="SparkFun" package="0603-RES" value="10k" x="17.400834375" y="41.709228125" smashed="yes">
+<attribute name="NAME" x="19.06435625" y="40.461453125" size="0.8128" layer="25" font="vector"/>
+<attribute name="VALUE" x="18.982984375" y="41.481253125" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="IMU" library="Testing" package="QFN-24-4MM2" value="MPU-6050-1" x="14.17273125" y="44.055534375" smashed="yes" rot="R180"/>
+<element name="SJ1" library="SparkFun" package="SJ_3_PASTE2&amp;3" value="" x="15.675015625" y="48.40870625" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.75483125" y="47.057009375" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="15.675015625" y="48.30860625" size="0.02" layer="27" rot="R90"/>
+<attribute name="VALUE" x="17.580015625" y="47.13870625" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="SJ3" library="SparkFun" package="SJ_2S-TRACE" value="" x="11.598034375" y="48.976025" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.234209375" y="48.080475" size="0.8128" layer="25" rot="R90"/>
+<attribute name="VALUE" x="9.947034375" y="49.928525" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="SJ2" library="SparkFun" package="SJ_2S-TRACE" value="" x="18.2130875" y="43.95115625" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.466746875" y="44.887315625" size="0.8128" layer="25" rot="R270"/>
+<attribute name="VALUE" x="16.5620875" y="44.90365625" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="OV5642" library="Chao" package="OV5642_MODULE" value="OV5642_MODULE" x="41.2354625" y="46.997834375" smashed="yes">
+<attribute name="NAME" x="28.57468125" y="49.81988125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="46.55183125" y="43.443546875" size="0.8128" layer="27"/>
+</element>
+<element name="R4" library="resistor" package="R0603" value="4.7K" x="31.48938125" y="43.439865625" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.92739375" y="44.048671875" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.812471875" y="42.775815625" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="3.3V-VOL-REG" library="Chao" package="SOT-89" value="AP1117_VOL-REG" x="14.79075625" y="36.606496875" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.749275" y="36.788140625" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="23.741246875" y="38.60216875" size="0.8128" layer="27" rot="R180"/>
+</element>
+<element name="C19" library="SparkFun" package="0603-CAP" value="10uF" x="10.784878125" y="33.242834375" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.3631375" y="34.60439375" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="12.49551875" y="32.53465625" size="0.8128" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C20" library="SparkFun" package="0603-CAP" value="22uF" x="10.540465625" y="36.866296875" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.876509375" y="35.29103125" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="12.010278125" y="35.164028125" size="0.8128" layer="27" font="vector" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="N$2">
@@ -3322,8 +3454,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="22.628809375" y1="28.4856125" x2="22.6323" y2="28.489103125" width="0.1524" layer="1"/>
 </signal>
 <signal name="+5V">
-<contactref element="JP2" pad="1"/>
-<contactref element="U1" pad="VBUS"/>
+<contactref element="POWER" pad="1"/>
+<contactref element="USB" pad="VBUS"/>
 <contactref element="C2" pad="2"/>
 <contactref element="U$4" pad="1"/>
 <contactref element="U$4" pad="2"/>
@@ -3481,7 +3613,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CPU" pad="47"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="Q1" pad="4"/>
-<contactref element="U1" pad="GND"/>
+<contactref element="USB" pad="GND"/>
 <contactref element="MINI54_MICRO" pad="5"/>
 <contactref element="MINI54_MICRO" pad="17"/>
 <contactref element="MINI54_MICRO" pad="25"/>
@@ -3496,7 +3628,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="R7" pad="1"/>
 <contactref element="SW2" pad="3"/>
-<contactref element="JP2" pad="2"/>
+<contactref element="POWER" pad="2"/>
 <contactref element="R9" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C6" pad="2"/>
@@ -3740,7 +3872,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="23.06821875" y1="30.27613125" x2="22.373178125" y2="30.971171875" width="0.1524" layer="1"/>
 </signal>
 <signal name="D1">
-<contactref element="U1" pad="D-"/>
+<contactref element="USB" pad="D-"/>
 <contactref element="R5" pad="1"/>
 <wire x1="5.677296875" y1="34.26365625" x2="5.7255375" y2="34.215415625" width="0.1524" layer="1"/>
 <wire x1="5.7255375" y1="34.215415625" x2="7.89108125" y2="34.215415625" width="0.1524" layer="1"/>
@@ -3756,7 +3888,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.68159375" y1="31.437021875" x2="15.96683125" y2="31.437021875" width="0.1524" layer="16"/>
 </signal>
 <signal name="D2">
-<contactref element="U1" pad="D+"/>
+<contactref element="USB" pad="D+"/>
 <contactref element="R1" pad="1"/>
 <wire x1="5.677296875" y1="33.61365625" x2="5.703128125" y2="33.587825" width="0.1524" layer="1"/>
 <wire x1="5.703128125" y1="33.587825" x2="5.773434375" y2="33.65813125" width="0.1524" layer="1"/>
@@ -3779,7 +3911,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.374490625" y1="31.1471875" x2="10.34841875" y2="32.121115625" width="0.1524" layer="1"/>
 </signal>
 <signal name="P0.0">
-<contactref element="U1" pad="ID"/>
+<contactref element="USB" pad="ID"/>
 <contactref element="MINI54_MICRO" pad="38"/>
 <contactref element="CPU" pad="23"/>
 <wire x1="27.01675625" y1="5.953425" x2="27.03315" y2="5.96981875" width="0.1524" layer="1"/>
